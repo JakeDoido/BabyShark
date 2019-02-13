@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/*----------------------------------------------------------------------
+  author: Vinicius Bartolo Guedes de Sousa;
+  Data:   11/02/2019;
+------------------------------------------------------------------*/
+body{
+  font-family: Hind, sans-serif;
+}
+p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Hind, sans-serif;
+  color: #a6a7aa;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+a:link {
+
+}
+/* visited link */
+a:visited {  
+
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: underline;
+  font-size: 15.5pt;
+}
+
+/* selected link */
+a:active {
+
+}
+
+img{
+  width: 100%;
+}
+.fundo{
+  width: 100%;
+  background-image: url("../img/home.jpg");
+  background-size: 100% 60%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #fff;
+  text-shadow: 2px 2px 5px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.header .navbar {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+footer{
+  width: 100%;
+  background-image: url("../img/footer.jpg");
+  background-size: 100% 600px;
+  font-size: 14pt;
+  color: #1a8cff;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+}
+/*------------MEDIA-----------------*/
+@media (min-width: 992px) {
+  .page-on-scroll .header .navbar {
+    background: #fff;
+    border-bottom-color: #f0f0f0;
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  }
